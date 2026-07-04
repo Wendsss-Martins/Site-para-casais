@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayssa e Wendel</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Karla:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<audio id="bgMusic" loop>
+    <source src="/audio/musica.mp3" type="audio/mpeg">
+</audio>
+
+<body>
+
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <p class="hero-date">13.02.25</p>
+            <h1 class="hero-title">Feliz nosso dia,<br><span class="name">Rayssa & Wendel</span></h1>
+            <p class="hero-subtitle">Cada momento ao seu lado é a minha memória favorita.</p>
+            <section class="love-counter">
+                <h2>❤️ Estamos juntos há</h2>
+                <div id="relationshipTime"></div>
+                <section class="love-counter">
+
+                    <h2 class="counter-title">Nosso tempo juntos</h2>
+
+                    <p class="counter-subtitle">
+                        Cada segundo ao seu lado torna a vida mais bonita.
+                    </p>
+
+                    <div class="counter-grid">
+
+                        <div class="counter-card">
+                            <span class="counter-number" id="years">0</span>
+                            <span class="counter-label">Anos</span>
+                        </div>
+
+                        <div class="counter-card">
+                            <span class="counter-number" id="months">0</span>
+                            <span class="counter-label">Meses</span>
+                        </div>
+
+                        <div class="counter-card">
+                            <span class="counter-number" id="days">0</span>
+                            <span class="counter-label">Dias</span>
+                        </div>
+
+                        <div class="counter-card">
+                            <span class="counter-number" id="hours">0</span>
+                            <span class="counter-label">Horas</span>
+                        </div>
+
+                        <div class="counter-card">
+                            <span class="counter-number" id="minutes">0</span>
+                            <span class="counter-label">Minutos</span>
+                        </div>
+
+                        <div class="counter-card">
+                            <span class="counter-number" id="seconds">0</span>
+                            <span class="counter-label">Segundos</span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </section> <br> <br>
+
+
+            <button class="btn-memories" id="btnMemories">
+                Ver nossas memórias
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M5 12l7 7 7-7" />
+                </svg>
+            </button>
+        </div>
+
+    </section>
+
+
+    <section class="gallery" id="gallery">
+        <div class="gallery-header">
+            <h2 class="gallery-title">Nossos Momentos</h2>
+            <p class="gallery-subtitle">Uma coleção de instantes que guardo no coração</p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+
+
+            <div class="gallery-item" data-caption="Juntos, sempre lindos">
+                <img src="https://customer-assets.emergentagent.com/job_nossos-instantes/artifacts/p0xpmtez_Imagem%20do%20WhatsApp%20de%202025-06-07%20%C3%A0%28s%29%2021.46.33_01ad4594.jpg"
+                    alt="Momento especial 1">
+            </div>
+
+            <div class="gallery-item" data-caption="Seu sorriso ilumina meus dias">
+                <img src="https://customer-assets.emergentagent.com/job_nossos-instantes/artifacts/h03qjor3_Imagem%20do%20WhatsApp%20de%202025-07-20%20%C3%A0%28s%29%2001.06.53_aab37364.jpg"
+                    alt="Momento especial 2">
+            </div>
+
+            <div class="gallery-item" data-caption="O beijo mais doce">
+                <img src="https://customer-assets.emergentagent.com/job_nossos-instantes/artifacts/oqlfpft7_Imagem%20do%20WhatsApp%20de%202025-08-13%20%C3%A0%28s%29%2008.56.00_e3d6177c.jpg"
+                    alt="Momento especial 3">
+            </div>
+
+            <div class="gallery-item" data-caption="Nossos encontros favoritos">
+                <img src="https://customer-assets.emergentagent.com/job_nossos-instantes/artifacts/hzzi6mu4_Imagem%20do%20WhatsApp%20de%202025-08-13%20%C3%A0%28s%29%2008.56.01_5a03153a.jpg"
+                    alt="Momento especial 4">
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="final-section" id="final">
+        <div class="final-content">
+            <div class="heart-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+            </div>
+            <h2 class="final-title">Rayssa,</h2>
+            <p class="final-message">
+                Obrigado por transformar momentos simples em eternos.<br>
+                Por fazer dos meus dias uma aventura.<br>
+                Por ser exatamente quem você é.
+            </p>
+            <p class="final-signature">Com todo meu amor, sempre.</p>
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+            </button>
+            <img class="modal-image" id="modalImage" src="" alt="Foto ampliada">
+            <p class="modal-caption" id="modalCaption"></p>
+        </div>
+    </div>
+    <audio id="bgMusic" loop>
+        <source src="/audio/musica.mp3" type="audio/mpeg">
+    </audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
